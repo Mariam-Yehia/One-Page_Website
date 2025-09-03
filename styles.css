@@ -1,0 +1,16 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+.icon-hover:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
